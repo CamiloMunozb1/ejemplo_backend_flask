@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 from dotenv import load_dotenv
-from backend.logic import conexion
+from backend.data import conexion
 from pandas import pd
 import psycopg2
 

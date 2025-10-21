@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 from dotenv import load_dotenv
-from backend.logic import conexion
+from backend.data import conexion
 import psycopg2
 
 actualizar_tarea = Blueprint('actualizar_tarea',__name__)
