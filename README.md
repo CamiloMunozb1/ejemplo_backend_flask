@@ -12,6 +12,7 @@ Este repositorio contiene el código de un backend para una aplicación simple d
 
 ## Estructura del Proyecto
 El proyecto está organizado de manera modular para separar la lógica de negocio de la configuración de la aplicación:
+
                     lista_tareas/
                     ├── backend/
                     │   ├── data/
@@ -21,6 +22,7 @@ El proyecto está organizado de manera modular para separar la lógica de negoci
                     ├── app.py                # Archivo principal: inicializa Flask, CORS y registra Blueprints.
                     ├── .env.example          # Plantilla para las variables de entorno.
                     └── README.md
+                    
 
 ##  Configuración del Entorno
 Sigue estos pasos para configurar y ejecutar el proyecto localmente.
