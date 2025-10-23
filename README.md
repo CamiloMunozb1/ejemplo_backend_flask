@@ -41,6 +41,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente.
     pip install Flask flask-cors python-dotenv psycopg2-binary pandas
 
 3. Configurar la Base de Datos (PostgreSQL)
+   
         Crear la tabla Lista_tareas:
             CREATE TABLE Lista_tareas (
            tarea_id SERIAL PRIMARY KEY,
@@ -49,8 +50,9 @@ Sigue estos pasos para configurar y ejecutar el proyecto localmente.
            estado_tarea VARCHAR(50) NOT NULL -- Ej: 'Pendiente', 'En Progreso', 'Completada'
         );
 
-4. Configurar Variables de Entorno
+5. Configurar Variables de Entorno
    Crea un archivo llamado .env en la raíz del proyecto (a la misma altura que app.py) y rellena los siguientes datos con tus credenciales de PostgreSQL:
+   
             DB_HOST=localhost
             DB_NAME=nombre_de_tu_db
             DB_USER=tu_usuario
